@@ -14,6 +14,24 @@ Languages used in frontend
 - CSS
 - Javascript
 
+## HTML
+
+### HTML stands for Hyper Text Markup Language
+
+### Tags
+
+#### h1, h2, h3, h4, h5, h6
+
+#### p
+
+#### b
+
+#### strong
+
+#### i
+
+#### em
+
 ## 🔗 Links
 
 [RESOURCE PAGE](https://jonas.io/resources/)
