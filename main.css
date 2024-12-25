@@ -1,4 +1,21 @@
+body {
+  font-size: 24px;
+}
+h1,
+h2 {
+  color: blue;
+}
 p {
-  font-size: 24;
-  color: green;
+  color: red;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+.gray {
+  color: gray;
+}
+#second {
+  font-style: italic;
 }
