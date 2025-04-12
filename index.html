@@ -6,32 +6,51 @@
     <title>Dear Comrade Web Development</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
   </head>
   <body>
-    <header><h1>CSS Colors</h1></header>
-    <main>
-      <article>
-        <h2>Article 1</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores non
-          quam amet enim impedit sit molestiae! Non fugiat repudiandae rerum
-          ullam, nam quod dignissimos omnis praesentium minus consequuntur
-          consectetur necessitatibus.
-        </p>
+    <header>
+      <div class="header">
+        <h1 class="header-title">Dear Comrade</h1>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-list-li">About</li>
+            <li class="nav-list-li">News</li>
+            <li class="nav-list-li">Spring</li>
+            <li class="nav-list-li">Database</li>
+            <li class="nav-list-li">Web Development</li>
+            <li class="nav-list-li">DevOps</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-container">
+      <article class="article-container">
+        <h2 class="article-header">
+          KCR, Harish Rao get relief as HC suspends lower court’s order
+        </h2>
+        <div class="content-container">
+          <p class="article-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+            non quam amet enim impedit sit molestiae! Non fugiat repudiandae
+            rerum ullam, nam quod dignissimos omnis praesentium minus
+            consequuntur consectetur necessitatibus.
+          </p>
+        </div>
       </article>
-      <article>
-        <h2>Article 2</h2>
-        <p id="second" class="gray">
+      <article class="article-container">
+        <h2 class="article-header">
+          BRS in existential crisis, will a reclusive KCR rise to the challenge
+        </h2>
+        <p class="article-content">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores non
           quam <span class="highlight">amet</span> enim impedit sit molestiae!
           Non fugiat repudiandae rerum ullam, nam quod dignissimos omnis
           praesentium minus consequuntur consectetur necessitatibus.
         </p>
       </article>
-      <article>
-        <h2>Article 3</h2>
-        <p class="gray">
+      <article class="article-container">
+        <h2 class="article-header">Article 3</h2>
+        <p class="article-content">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores non
           quam amet enim impedit sit molestiae! Non fugiat repudiandae rerum
           ullam, nam quod dignissimos

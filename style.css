@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: "Zilla Slab", serif;
+}
+.title {
+  text-align: center;
+}
+.photo {
+  width: 30%;
+  height: 175px;
+  object-fit: cover;
+  border: 0.25rem solid black;
+  border-radius: 10px;
+  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  margin-left: 156px;
+}
+.menu-items {
+  align-items: center;
+  align-content: center;
+  background-color: rgb(215, 243, 56);
+  border-radius: 10px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+}
+.menu-title {
+  text-align: center;
+}
